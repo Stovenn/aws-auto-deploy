@@ -2,4 +2,4 @@
 set -xe
 
   # Generate go binary.
-  go build -o bin ./...
+  go build -o autodeploy ./cmd/autodeploy
