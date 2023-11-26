@@ -4,9 +4,11 @@ on:
   workflow_dispatch: {}
 
 env:
-  applicationfolder: aws-auto-deploy
+  applicationfolder: ./
   AWS_REGION: eu-west-3
   S3BUCKET: codedeploystack-webappdeploymentbucket-1xzosdunrf13p
+
+
 jobs:
   build:
     name: Build
